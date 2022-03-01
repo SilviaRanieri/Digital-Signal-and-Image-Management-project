@@ -1,5 +1,5 @@
 # Digital-Signal-and-Image-Management-project
-Nel seguente progetto dedicato alla materia Digital Signal and Image Mana- gement, sono stati studiati diversi approcci per 3 tipi di problemi differenti:
+Nel seguente progetto dedicato alla materia Digital Signal and Image Management, sono stati studiati diversi approcci per 3 tipi di problemi differenti:
 # • Processing di segnali mono-dimensionali:
 si tratta di un task di speaker re- cognition, i quali speaker da riconoscere sono i 3 membri del gruppo. Il problema `e stato affrontato allenando una semplice rete neurale fully-connected con spezzoni da un secondo di diverse registrazioni appartenenti ai 3 speaker da riconoscere. 
 # • Processing di segnali bi-dimensionali: 
