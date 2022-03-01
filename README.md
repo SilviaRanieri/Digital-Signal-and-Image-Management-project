@@ -1,15 +1,14 @@
 # Digital-Signal-and-Image-Management-project
-Nel seguente progetto dedicato alla materia Digital Signal and Image Management, sono stati studiati diversi approcci per 3 tipi di problemi differenti:
-# • Processing di segnali mono-dimensionali:
-si tratta di un task di speaker re- cognition, i quali speaker da riconoscere sono i 3 membri del gruppo. Il problema `e stato affrontato allenando una semplice rete neurale fully-connected con spezzoni da un secondo di diverse registrazioni appartenenti ai 3 speaker da riconoscere. 
-# • Processing di segnali bi-dimensionali: 
-si tratta di un task di face recognition, i quali visi da riconoscere sono anche in questo caso quelli dei membri del gruppo. L’approccio al problema si `e basato sulla libreria OpenCV per la face detection e il successivo allenamento di una rete neurale convoluzionale tramite transfer learning e fine tuning. La face recognition `e stata successivamente implementata in real- time a video, la quale ha dimostrato robustezza anche in diverse condizioni di luce, espressioni e angolazioni diverse. 
-# • Content based image retrieval: 
-in questa ultima parte, l’obiettivo `e stato quello di restituire 10 volti piu` simili ad un volto dato come input, estrapolandoli da un ampio dataset di foto di celebrit`a. Per raggiungere l’obiettivo si `e fatto uso una seconda volta della libreria OpenCV per la face detection, i visi sono stati utilizzati per allenare un autoencoder, dal quale `e stata estratta la parte di encoding da utilizzare come feature extraction per le foto. Per trovare i volti piu` simili quindi si `e misurata la distanza tra le feature delle varie foto del dataset e quella di query.
+In the following project dedicated to Digital Signal and Image Management, different approaches have been studied for 3 different types of problems:
+# • Processing of one-dimensional signals:
+it is a task of speaker recognition, which speakers to be recognized are the 3 members of the group. The problem was tackled by training a simple fully-connected neural network with one-second clips of different recordings belonging to the 3 speakers to be recognized.
+# • Processing of two-dimensional signals:
+it is a face recognition task, which faces to be recognized are also in this case those of the members of the group. The approach to the problem was based on the OpenCV library for face detection and subsequent training of a convolutional neural network through transfer learning and fine tuning. Face recognition was subsequently implemented in real-time on the screen, which demonstrated robustness even in different light conditions, expressions and different angles.
+# • Content based image retrieval:
+in this last part, the goal was to return 10 faces more similar to a face given as input, extrapolating them from a large dataset of celebrity photos. To achieve the goal, the OpenCV library for face detection was used a second time, the faces were used to train an autoencoder, from which the encoding part to be used as a feature extraction for the photos was extracted. To find the most similar faces, the distance between the features of the various photos of the dataset and the query was measured.
 
 # Software 
-Abbiamo usato python per questo progetto.
-
+We used python for this project.
 # Team 
 Mattia Boller m.boller@campus.unimib.it 
 
